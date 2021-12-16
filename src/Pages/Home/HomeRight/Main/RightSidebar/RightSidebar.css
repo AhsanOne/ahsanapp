@@ -1,0 +1,101 @@
+.home__rightMainRight{
+    padding: 20px 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: -5px 0 33px -5px #cccccc;
+    width: 280px;
+}
+.home__rightMainRightGeneralInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__rightMainRightGeneralInfo .photo img{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+}
+.home__rightMainRightGeneralInfo .name{
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.home__rightMainRightGeneralInfo .designation{
+    margin-bottom: 7px;
+}
+.home__rightMainRightGeneralInfo .location{
+    color: #6c6c6c;
+}
+.home__rightMainRightGeneralInfo .more__infoBtn{
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 250px;
+}
+.home__rightMainRightContactInfo{
+    margin-top: 30px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home__rightMainRightContactInfo .info{
+    padding: 15px 0px;
+    border-top: 1px solid #eeffee;
+    border-bottom: 1px solid #eeffee;
+}
+.home__rightMainRightContactInfo .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.home__rightMainRightContactInfo .head .AddBtn{
+    background-color: transparent;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+.home__rightMainRightContactInfo .info .email, .phone, .userName{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.home__rightMainRightContactInfo .info svg{
+    background-color: #cccccc;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #6c6c6c;
+    margin-right: 10px;
+}
+.home__rightMainRightAttachment{
+    margin-top: 30px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home__rightMainRightAttachment .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.home__rightMainRightAttachment .head .AddBtn{
+    background-color: transparent;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+.home__rightMainRightAttachment .Attachments{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-top: 20px;
+    border-top: 1px solid #eeffee;
+}
+.home__rightMainRightAttachment .Attachments .Attachment img{
+    width: 100%;
+    height: 100%;
+}

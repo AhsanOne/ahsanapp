@@ -1,0 +1,55 @@
+.home__rightHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.home__rihgtHeadLogo{
+    display: flex;
+    align-items: center;
+    transform: translateY(-5px);
+}
+.home__rightHeadNav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.home__rightHeadNav ul li .home__rightNotify{
+    display: flex;
+    position: relative;
+}
+.home__rightHead ul li a{
+    display: flex;
+    color: #000000;
+}
+.home__rightHead ul li .home__rightNotify span{
+    position: absolute;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff5757;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    top: -5px;
+    right: -5px;
+}
+.home__rightHeadNav ul li{
+    margin-left: 25px;
+}
+.home__rightHeadNav ul li:first-child{
+    margin-left: 0;
+}
+.home__rightHeadNav ul li a svg{
+    width: 54px;
+    height: 54px;
+    display: flex;
+
+}
+.home__rightHeadNav ul li .home__rightNotify svg{
+    width: 30px;
+    height: 30px;
+}

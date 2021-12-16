@@ -1,0 +1,6 @@
+.home__rightMain{
+    display: flex;
+    justify-content: space-between;
+    height: 115vh;
+    margin-right: 20px;
+}

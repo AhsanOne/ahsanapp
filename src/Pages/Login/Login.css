@@ -1,0 +1,60 @@
+.login__page{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login__pageHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login__pageHeaderLogo{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 15px;
+}
+.login__pageHeaderTitle{
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.login__pageForm{
+    display: grid;
+    place-items: center;
+    width: 320px;
+    padding: 24px 40px;
+    box-shadow: rgb(32 32 32 / 8%) 0px 10px 32px;
+}
+.login__pageForm form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login__pageFormControl{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.login__pageFormControl:last-of-type{
+    margin-bottom: 0;
+}
+.login__pageFormControl input{
+    outline-width: 0;
+    padding: 15px;
+    border: 0;
+    background-color: #efefef;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.login__pageFormControl input[type="submit"]{
+    background-color: #ff5757;
+    color: white;
+    cursor: pointer;
+}
+.login__pageForgotPass{
+    color: #757575;
+}
+.login__pageSignUpLink{
+    text-align: center;
+    color: #ff5757;
+}

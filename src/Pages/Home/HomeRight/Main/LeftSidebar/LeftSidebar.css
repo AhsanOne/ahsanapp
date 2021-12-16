@@ -1,0 +1,81 @@
+.home__rightMainLeft{
+    padding: 20px 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 0 33px -5px #cccccc;
+    width: 280px;
+}
+.home__rightMainLeftSearch{
+    margin-bottom: 15px;
+}
+.home__rightMainSearchFormControl{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.home__rightMainSearchFormControl input[type="text"]{
+    outline-width: 0;
+    padding: 15px 10px 15px 40px;
+    border: 0;
+    background-color: #efefef;
+    border-radius: 2px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.home__rightMainSearchFormControl button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: #6c6c6c;
+    left: 10px;
+    top: 14px;
+    padding: 0px;
+}
+.home__rightMainLeftButton{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.home__rightMainLeftButton button{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.home__rightMainLeftButton .active{
+    background-color: #ff5757;
+    color: white;
+}
+.home__rightMainLeftFriendList{
+    height: 60%;
+    overflow-y: scroll;
+}
+.home__rightMainLeftFriendList::-webkit-scrollbar{
+    display: none;
+}
+.home__rightMainLeftFriend{
+    display: flex;
+    padding: 15px 10px;
+    border: 1px solid #efefef;
+    border-bottom: none;
+    cursor: pointer;
+}
+.home__rightMainLeftFriend:last-of-type{
+    border-bottom: 1px solid #efefef;
+}
+.home__rightMainLeftFriend .friend__photo img{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+}
+.home__rightMainLeftFriend .friend__info{
+    margin-left: 15px;
+}
+.home__rightMainLeftFriend .friend__info h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.home__rightMainLeftFriend .friend__info p{
+    color: #6c6c6c;
+}
